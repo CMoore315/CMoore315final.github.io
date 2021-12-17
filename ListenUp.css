@@ -1,0 +1,179 @@
+body {
+	background-color: #000000;
+	padding: 25px 75px 75px 100px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+.sidebar {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #0A0A0A;
+	overflow-x: hidden;
+	padding: 40px;
+}
+.sidebar a {
+	padding: 28px 20px 16px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+	color: #ffffff;
+	display: block;
+}
+.sidebar a:hover {
+	color: #813772;
+}
+
+.center {
+	text-align: center;
+}
+
+.searchbox {  
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding: 5px 40px 5px 40px;
+}  
+input[type=text] {  
+	padding: 6px;  
+	margin-top: 8px;  
+	font-size: 16px; 
+	font-style: bold;
+	border: none;  
+}  
+.searchbox button {  
+	padding: 8px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #3CC47C;  
+	font-size: 16px;  
+	font-style: bold;
+	border: none;  
+	cursor: pointer;  
+}  
+.searchbox button:hover {  
+	background: #813772;  
+} 
+
+.main {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+.image-gallery {
+	display: block;
+	background-color: #000000;
+}
+.image-gallery img {
+	margin: 0 auto;
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 10px 50px 25px 50px;
+	object-fit: cover;
+}
+.box {
+	position: absolute;
+	display: inline;
+}
+.bigbox {
+	display: inline-grid;
+	text-align: center;
+}
+
+div.content {
+	margin-left: 200px;
+	padding: 1px 16px;
+	height: 100px;
+}
+.clear {
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 1px;
+	line-height: 0;
+}
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+}	
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+}
+}
+
+header {
+	display: block;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	color: #3CC47C;
+	font-size: 50px;
+	padding: 20px 40px 10px 40px;
+	text-align: left;
+}
+
+h2 {font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	color: #3CC47C;
+	font-size: 38px;
+	padding: 20px 40px 10px 40px;
+	text-align: left;
+}
+h3 {font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	color: #3CC47C;
+	font-size: 35px;
+	padding: 20px 40px 10px 40px;
+	text-align: center;
+}
+
+
+.one {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 5px 40px 5px 40px;
+	text-align: left;
+	text-decoration: none;
+}
+.two {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 5px 40px 5px 40px;
+	text-align: center;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: #3CC47C;
+  font-size: 24px;
+}
+
+footer {
+	font-size: 18px;
+	font-style: bold;
+	color: #ffffff;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 150px 5px 5px 5px;
+	background-color: #000000;
+}
